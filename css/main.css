@@ -1,0 +1,26 @@
+.menu {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.menu a {
+    display: inline-block;
+    background-color: blue;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s;
+}
+
+.menu a:hover {
+    background-color: green;
+    color: white;
+}
+
+.menu li {
+    list-style-type: none;
+    background-color: red;
+}
