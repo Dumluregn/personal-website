@@ -1,9 +1,21 @@
 body {
-    background-color: pink;
+    background-color: lightgray;
 }
 
-section {
+header {
+    background-color: grey;
+}
+
+main {
+    background-color: rgb(130, 238, 135);
+}
+
+article {
     background-color: yellow;
+}
+
+footer {
+    background-color: red;
 }
 
 h1, h2 {
@@ -18,18 +30,17 @@ div {
     text-align: center;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: magenta;
-}
-
 .menu {
     display: flex;
     justify-content: center;
     width: 80%;
     padding: 0;
     margin: 50px auto;
+}
+
+.menu li {
+    list-style-type: none;
+    background-color: red;
 }
 
 .menu a {
@@ -48,7 +59,8 @@ div {
     color: white;
 }
 
-.menu li {
-    list-style-type: none;
-    background-color: red;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: magenta;
 }
