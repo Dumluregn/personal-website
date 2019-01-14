@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-header {
+nav {
     background-color: grey;
     position: relative;
     top: 0px;
@@ -25,11 +25,24 @@ footer {
     background-color: red;
 }
 
-h1, h2 {
+h1 {
     width: 80%;
     margin: 0 auto;
     padding: 10px;
     text-align: center;
+    font-size: 5vw;
+    color: white;
+    text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+}
+
+h2 {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 4vw;
+    color: green;
+    text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
 }
 
 div {
@@ -42,14 +55,13 @@ p {
     padding: 0 15px;
 }
 
-.empty {
-    height: 400px;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: black;
+.hero {
+    height: 500px;
+    background-image: url('images/hero.jpg');
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu {
@@ -66,16 +78,15 @@ p {
 
 .menu a {
     display: inline-block;
-    background-color: blue;
-    padding: 5px;
-    margin: 0 10px;
-    border-radius: 10px;
+    background-color: black;
+    padding: 20px;
+    margin: 0;
     text-decoration: none;
-    color: black;
-    transition: all 0.2s;
+    color: white;
+    transition: all 0.5s;
 }
 
 .menu a:hover {
-    background-color: green;
-    color: white;
+    background-color: white;
+    color: black;
 }
