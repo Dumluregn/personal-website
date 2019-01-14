@@ -5,6 +5,9 @@ body {
 
 header {
     background-color: grey;
+    position: relative;
+    top: 0px;
+    width: 100%;
 }
 
 main {
@@ -13,6 +16,9 @@ main {
 
 article {
     background-color: yellow;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
 }
 
 footer {
@@ -21,14 +27,23 @@ footer {
 
 h1, h2 {
     width: 80%;
-    margin: 15px auto;
+    margin: 0 auto;
+    padding: 10px;
     text-align: center;
 }
 
 div {
-    width: 80%;
-    margin: 15px auto;
+    margin: 0px auto;
+    padding: 15px;
     text-align: center;
+}
+
+p {
+    padding: 0 15px;
+}
+
+.empty {
+    height: 400px;
 }
 
 .container {
@@ -40,9 +55,8 @@ div {
 .menu {
     display: flex;
     justify-content: center;
-    width: 80%;
+    margin: 0 auto;
     padding: 0;
-    margin: 50px auto;
 }
 
 .menu li {
