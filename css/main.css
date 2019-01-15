@@ -28,12 +28,12 @@ footer {
 }
 
 h1 {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding: 10px;
     text-align: center;
-    font-size: 5vw;
-    color: white;
+    font-size: 4vw;
+    color: black;
     text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
     transition: all 0.5s;
 }
@@ -53,6 +53,15 @@ div {
     margin: 0px auto;
     padding: 15px;
     text-align: center;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    margin-top: auto;
 }
 
 p {
