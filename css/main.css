@@ -1,21 +1,17 @@
 body {
-    background-color: lightgray;
+    background-color: #d0e1f9;
     font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
 }
 
 nav {
-    background-color: grey;
     position: relative;
     top: 0px;
     width: 100%;
 }
 
-main {
-    background-color: rgb(130, 238, 135);
-}
-
 article {
-    background-color: yellow;
+    background-color: white;
     max-width: 800px;
     margin: 20px auto;
     padding: 30px;
@@ -24,7 +20,8 @@ article {
 }
 
 footer {
-    background-color: red;
+    background-color: black;
+    color: white;
 }
 
 h1 {
@@ -44,8 +41,8 @@ h2 {
     padding: 10px;
     text-align: center;
     font-size: 3vw;
-    color: green;
-    text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+    color: #283655;
+    text-shadow: 2px 3px 0 rgba(0,0,0,0.2);
     transition: all 0.5s;
 }
 
@@ -66,6 +63,15 @@ div.transbox {
 
 p {
     padding: 0 15px;
+}
+
+p a {
+    color: black;
+    font-weight: 800;
+}
+
+p a:hover {
+    color: #283655;
 }
 
 .hero {
